@@ -5,9 +5,8 @@ import MVC.Models.Pelicula.ActorModel;
 import MVC.Models.Pelicula.PeliculaModel;
 import MVC.View.PeliculaView;
 
-import java.lang.reflect.Array;
+
 import java.util.ArrayList;
-import java.util.Scanner;
 
 public class PeliculaController {
     public ArrayList<PeliculaModel> peliculas = new ArrayList<>();

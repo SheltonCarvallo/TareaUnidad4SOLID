@@ -6,7 +6,7 @@ import MVC.Models.Documental.InvestigadorModel;
 import MVC.View.DocumentalView;
 
 import java.util.ArrayList;
-import java.util.Scanner;
+
 
 public class DocumentalController {
     public ArrayList<DocumentalModel> documentales = new ArrayList<>();

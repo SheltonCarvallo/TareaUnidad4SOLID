@@ -1,8 +1,6 @@
 package MVC.Utilitarios;
 
 import MVC.Interfaces.IPeliculaPersistenciaDatos;
-import MVC.Models.Documental.DocumentalModel;
-import MVC.Models.Pelicula.ActorModel;
 import MVC.Models.Pelicula.PeliculaModel;
 
 import java.io.*;
@@ -10,6 +8,9 @@ import java.util.ArrayList;
 
 public class IOPelicula implements IPeliculaPersistenciaDatos {
     private static final String File_Name = "Pelicula.csv";
+
+
+
     @Override
     public void guardarDatos(ArrayList<PeliculaModel> peliculas) {
         try (FileOutputStream fileOutputStream = new FileOutputStream(File_Name)){
