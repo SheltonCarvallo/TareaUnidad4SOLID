@@ -1,42 +1,40 @@
 package MVC.Utilitarios;
 
+import MVC.Interfaces.IPeliculaPersistenciaDatos;
+import MVC.Models.Documental.DocumentalModel;
+import MVC.Models.Pelicula.ActorModel;
+import MVC.Models.Pelicula.PeliculaModel;
+
 import java.io.*;
 import java.util.ArrayList;
 
-
-import MVC.Interfaces.IDocumentalPersistenciaDatos;
-import MVC.Models.Documental.DocumentalModel;
-
-public class IODocumental implements IDocumentalPersistenciaDatos {
-
-    private static final String File_Name = "Documentales.csv";
-
+public class IOPelicula implements IPeliculaPersistenciaDatos {
+    private static final String File_Name = "Pelicula.csv";
     @Override
-    public void guardarDatos(ArrayList<DocumentalModel> listaDocumentales) {
-        try (FileOutputStream fileOutStream = new FileOutputStream(File_Name)) {
-            ObjectOutputStream oos = new ObjectOutputStream(fileOutStream);
-            oos.writeObject(listaDocumentales);
+    public void guardarDatos(ArrayList<PeliculaModel> peliculas) {
+        try (FileOutputStream fileOutputStream = new FileOutputStream(File_Name)){
+            ObjectOutputStream oos = new ObjectOutputStream(fileOutputStream);
+            oos.writeObject(peliculas);
             System.out.println("Lista de objetos serializada en el archivo " + File_Name);
-        } catch (IOException ex) {
+        } catch (IOException ex){
             System.out.println("Problema: " + ex.getMessage());
             ex.printStackTrace();
         }
     }
 
     @Override
-    public ArrayList<DocumentalModel> leerDatos() {
-        if (existeArchivo()) {
+    public ArrayList<PeliculaModel> leerDatos() {
+        if(existeArchivo()){
             try (FileInputStream fileInputStream = new FileInputStream(File_Name)) {
                 ObjectInputStream ois = new ObjectInputStream(fileInputStream);
                 Object objetos = ois.readObject();
-                return (ArrayList<DocumentalModel>) objetos; //casting
+                return (ArrayList<PeliculaModel>) objetos; // casting
             } catch (IOException | ClassNotFoundException ex) {
                 System.out.println("Problema: " + ex.getMessage());
                 ex.printStackTrace();
             }
         }
         return new ArrayList<>();
-
     }
 
     private boolean existeArchivo() {

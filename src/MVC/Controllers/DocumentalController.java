@@ -12,7 +12,6 @@ public class DocumentalController {
     public ArrayList<DocumentalModel> documentales = new ArrayList<>();
     private final DocumentalView vista;
     private final IDocumentalPersistenciaDatos documentalPersistenciaDatos;
-    public Scanner scanner = new Scanner(System.in);
 
     public DocumentalController(DocumentalView vista, IDocumentalPersistenciaDatos documentalPersistenciaDatos) {
         this.vista = vista;
@@ -45,7 +44,7 @@ public class DocumentalController {
 
     }
 
-    public void agregarDocumental() {
+    private void agregarDocumental() {
 
         DocumentalModel documental = crearDocumental();
         documentales.add(documental);
@@ -62,11 +61,11 @@ public class DocumentalController {
         return new DocumentalModel(tituloDocumental, duracionMinutos, genero, investigadores);
     }
 
-    public void actualizarVista() {
+    private void actualizarVista() {
         vista.mostrarInformacionDocumental(documentales);
     }
 
-    public void uploadObjetos() {
+    private void uploadObjetos() {
         ArrayList<DocumentalModel> documentalesUploaded = documentalPersistenciaDatos.leerDatos();
         if (documentalesUploaded.isEmpty()) {
             return;
