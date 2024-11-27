@@ -1,6 +1,6 @@
-package MVC.Models.Documental;
+package mvc.models.Documental;
 
-import MVC.Models.ContenidoAudiovisual;
+import mvc.models.ContenidoAudiovisual;
 
 import java.util.ArrayList;
 
@@ -16,6 +16,7 @@ public class DocumentalModel extends ContenidoAudiovisual {
         this.investigadores = investigadores;
     }
 
+    //getter
     public ArrayList<InvestigadorModel> getInvestigadores() {
         return investigadores;
     }

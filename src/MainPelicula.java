@@ -1,7 +1,7 @@
-import MVC.Controllers.PeliculaController;
-import MVC.Interfaces.IPeliculaPersistenciaDatos;
-import MVC.Utilitarios.IOPelicula;
-import MVC.View.PeliculaView;
+import mvc.controllers.PeliculaController;
+import mvc.interfaces.IPeliculaPersistenciaDatos;
+import mvc.utilitarios.IOPelicula;
+import mvc.view.PeliculaView;
 
 public class MainPelicula {
     public static void main(String[] args) {

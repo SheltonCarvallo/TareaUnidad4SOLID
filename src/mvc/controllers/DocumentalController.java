@@ -1,9 +1,9 @@
-package MVC.Controllers;
+package mvc.controllers;
 
-import MVC.Interfaces.IDocumentalPersistenciaDatos;
-import MVC.Models.Documental.DocumentalModel;
-import MVC.Models.Documental.InvestigadorModel;
-import MVC.View.DocumentalView;
+import mvc.interfaces.IDocumentalPersistenciaDatos;
+import mvc.models.Documental.DocumentalModel;
+import mvc.models.Documental.InvestigadorModel;
+import mvc.view.DocumentalView;
 
 import java.util.ArrayList;
 

@@ -1,7 +1,7 @@
-package MVC.Utilitarios;
+package mvc.utilitarios;
 
-import MVC.Interfaces.IPeliculaPersistenciaDatos;
-import MVC.Models.Pelicula.PeliculaModel;
+import mvc.interfaces.IPeliculaPersistenciaDatos;
+import mvc.models.Pelicula.PeliculaModel;
 
 import java.io.*;
 import java.util.ArrayList;

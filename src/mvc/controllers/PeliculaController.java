@@ -1,9 +1,9 @@
-package MVC.Controllers;
+package mvc.controllers;
 
-import MVC.Interfaces.IPeliculaPersistenciaDatos;
-import MVC.Models.Pelicula.ActorModel;
-import MVC.Models.Pelicula.PeliculaModel;
-import MVC.View.PeliculaView;
+import mvc.interfaces.IPeliculaPersistenciaDatos;
+import mvc.models.Pelicula.ActorModel;
+import mvc.models.Pelicula.PeliculaModel;
+import mvc.view.PeliculaView;
 
 
 import java.util.ArrayList;

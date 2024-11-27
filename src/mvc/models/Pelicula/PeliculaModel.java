@@ -1,6 +1,6 @@
-package MVC.Models.Pelicula;
+package mvc.models.Pelicula;
 
-import MVC.Models.ContenidoAudiovisual;
+import mvc.models.ContenidoAudiovisual;
 import java.util.ArrayList;
 
 public class PeliculaModel extends ContenidoAudiovisual {

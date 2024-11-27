@@ -1,4 +1,4 @@
-package MVC.Models;
+package mvc.models;
 
 import java.io.Serializable;
 

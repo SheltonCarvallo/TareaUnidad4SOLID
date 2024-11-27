@@ -1,7 +1,7 @@
-package MVC.View;
+package mvc.view;
 
-import MVC.Models.Documental.DocumentalModel;
-import MVC.Models.Documental.InvestigadorModel;
+import mvc.models.Documental.DocumentalModel;
+import mvc.models.Documental.InvestigadorModel;
 
 import java.util.ArrayList;
 import java.util.InputMismatchException;

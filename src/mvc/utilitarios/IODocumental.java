@@ -1,11 +1,11 @@
-package MVC.Utilitarios;
+package mvc.utilitarios;
 
 import java.io.*;
 import java.util.ArrayList;
 
 
-import MVC.Interfaces.IDocumentalPersistenciaDatos;
-import MVC.Models.Documental.DocumentalModel;
+import mvc.interfaces.IDocumentalPersistenciaDatos;
+import mvc.models.Documental.DocumentalModel;
 
 public class IODocumental implements IDocumentalPersistenciaDatos {
 
