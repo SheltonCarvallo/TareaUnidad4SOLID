@@ -57,6 +57,17 @@ El proyecto sigue los principios SOLID para asegurar que sea escalable, flexible
 
 ---
 
+## Diagrama de clases
+### Documental
+![Documental UML Shelton Carvallo](https://github.com/user-attachments/assets/699d9d27-deb3-463b-813b-75adadf09eda)
+
+### Pelicula
+![Pelicula UML Shelton Carvallo](https://github.com/user-attachments/assets/0f487353-e2f2-4f97-a5ee-a16f6f9d6751)
+
+### Serie tv
+![Serie Tv UML Shelton Carvallo](https://github.com/user-attachments/assets/de97af93-9c69-4948-8e6f-b355dfd75a3e)
+
+
 ## Instalación
 
 Para ejecutar este proyecto en tu entorno local, sigue los siguientes pasos:
