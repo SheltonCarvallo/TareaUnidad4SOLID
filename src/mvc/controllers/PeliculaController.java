@@ -1,8 +1,8 @@
 package mvc.controllers;
 
 import mvc.interfaces.IPeliculaPersistenciaDatos;
-import mvc.models.Pelicula.ActorModel;
-import mvc.models.Pelicula.PeliculaModel;
+import mvc.models.pelicula.ActorModel;
+import mvc.models.pelicula.PeliculaModel;
 import mvc.view.PeliculaView;
 
 

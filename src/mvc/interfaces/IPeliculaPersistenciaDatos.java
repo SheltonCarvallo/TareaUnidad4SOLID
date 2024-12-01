@@ -1,6 +1,6 @@
 package mvc.interfaces;
 
-import mvc.models.Pelicula.PeliculaModel;
+import mvc.models.pelicula.PeliculaModel;
 
 import java.util.ArrayList;
 

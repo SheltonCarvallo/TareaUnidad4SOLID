@@ -1,13 +1,13 @@
 package mvc.utilitarios;
 
 import mvc.interfaces.IPeliculaPersistenciaDatos;
-import mvc.models.Pelicula.PeliculaModel;
+import mvc.models.pelicula.PeliculaModel;
 
 import java.io.*;
 import java.util.ArrayList;
 
 public class IOPelicula implements IPeliculaPersistenciaDatos {
-    private static final String File_Name = "Pelicula.csv";
+    private static final String File_Name = "pelicula.csv";
 
 
 

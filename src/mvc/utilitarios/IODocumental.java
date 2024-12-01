@@ -5,7 +5,7 @@ import java.util.ArrayList;
 
 
 import mvc.interfaces.IDocumentalPersistenciaDatos;
-import mvc.models.Documental.DocumentalModel;
+import mvc.models.documental.DocumentalModel;
 
 public class IODocumental implements IDocumentalPersistenciaDatos {
 

@@ -1,6 +1,6 @@
 package mvc.interfaces;
 
-import mvc.models.Documental.DocumentalModel;
+import mvc.models.documental.DocumentalModel;
 
 import java.util.ArrayList;
 

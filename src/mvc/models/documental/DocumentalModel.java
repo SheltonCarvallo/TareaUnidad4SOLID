@@ -1,4 +1,4 @@
-package mvc.models.Documental;
+package mvc.models.documental;
 
 import mvc.models.ContenidoAudiovisual;
 

@@ -1,7 +1,7 @@
 package mvc.utilitarios;
 
 import mvc.interfaces.IDocumentalPersistenciaDatos;
-import mvc.models.Documental.DocumentalModel;
+import mvc.models.documental.DocumentalModel;
 
 import java.io.*;
 import java.io.IOException;

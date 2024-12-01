@@ -1,7 +1,7 @@
 package mvc.view;
 
-import mvc.models.Pelicula.ActorModel;
-import mvc.models.Pelicula.PeliculaModel;
+import mvc.models.pelicula.ActorModel;
+import mvc.models.pelicula.PeliculaModel;
 
 import java.util.ArrayList;
 import java.util.InputMismatchException;

@@ -1,4 +1,4 @@
-package mvc.models.Pelicula;
+package mvc.models.pelicula;
 
 import mvc.models.ContenidoAudiovisual;
 import java.util.ArrayList;

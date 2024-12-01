@@ -1,8 +1,8 @@
 package mvc.controllers;
 
 import mvc.interfaces.IDocumentalPersistenciaDatos;
-import mvc.models.Documental.DocumentalModel;
-import mvc.models.Documental.InvestigadorModel;
+import mvc.models.documental.DocumentalModel;
+import mvc.models.documental.InvestigadorModel;
 import mvc.view.DocumentalView;
 
 import java.util.ArrayList;
@@ -65,7 +65,7 @@ public class DocumentalController {
         vista.mostrarInformacionDocumental(documentales);
     }
 
-    private void uploadObjetos() {
+    protected void uploadObjetos() {
         ArrayList<DocumentalModel> documentalesUploaded = documentalPersistenciaDatos.leerDatos();
         if (documentalesUploaded.isEmpty()) {
             return;
