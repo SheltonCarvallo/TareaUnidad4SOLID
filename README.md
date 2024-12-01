@@ -68,11 +68,15 @@ El proyecto sigue los principios SOLID para asegurar que sea escalable, flexible
 ![Serie Tv UML Shelton Carvallo](https://github.com/user-attachments/assets/de97af93-9c69-4948-8e6f-b355dfd75a3e)
 
 
-## Instalación
+### Requisitos previos
 
-Para ejecutar este proyecto en tu entorno local, sigue los siguientes pasos:
+Antes de comenzar, asegúrate de tener instalado lo siguiente en tu máquina:
+- [JDK (Java Development Kit)](https://www.oracle.com/java/technologies/javase-downloads.html) versión 8 o superior
+- Un IDE como [IntelliJ IDEA](https://www.jetbrains.com/idea/) o [Eclipse](https://www.eclipse.org/ide/)
 
-1. Clona este repositorio:
-   ```bash
-   git clone https://github.com/tu_usuario/nombre_del_repositorio.git
+### Instalación
 
+1. **Clonar el repositorio**
+   Primero, clona este repositorio en tu máquina local usando el siguiente comando:
+
+   git clone https://github.com/tuusuario/nombre-repositorio.git
