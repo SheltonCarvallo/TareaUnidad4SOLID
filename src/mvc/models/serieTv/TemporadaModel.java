@@ -3,6 +3,7 @@ package mvc.models.serieTv;
 import java.io.Serializable;
 
 public class TemporadaModel implements Serializable {
+    private static final long serialVersionUID = 1L;
     private String nombre;
     private int numeroTemporada;
     private int capitulos;
